@@ -2,20 +2,14 @@
 
 ICONS_PATH=$(PREFIX)/icons/
 GTK_THEMES_PATH=$(PREFIX)/themes/
+PREFIX=/usr/share
 
 %:
-  PREFIX=/usr/share
 	echo "Redirecting to task install"
   install
 
 install:
 	echo "Installing GTK Themes. Root may be required."
-
-	echo "Configuring Install Prefix"
-	ifeq ($(PREFIX)= ) \
-		PREFIX=/usr/share \
-	endif
-	echo "Done"
 
 	echo "Installing GTK Themes - Dark Themes"
   cp -r themes/Yaru-Cinnamon-Dark $(GTK_THEMES_PATH)
@@ -28,12 +22,6 @@ install:
 install-gtk:
 	echo "Installing GTK Themes. Root may be required."
 
-	echo "Configuring Install Prefix"
-	ifeq ($(PREFIX)= ) \
-		PREFIX=/usr/share \
-	endif
-	echo "Done"
-
 	echo "Installing GTK Themes - Dark Themes"
  	cp -r themes/Yaru-Cinnamon-Dark $(GTK_THEMES_PATH)
 	echo "Done"
@@ -44,12 +32,6 @@ install-gtk:
 
 install-icons:
 	echo "Installing Icon Theme. Root may be required."
-
-	echo "Configuring Install Prefix"
-	ifeq ($(PREFIX)= ) \
-		PREFIX=/usr/share \
-	endif
-	echo "Done"
 
 	cp -r icons/Yaru-Cinnamon $(ICONS_PATH)
 	echo "Done"
