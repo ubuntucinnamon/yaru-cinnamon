@@ -2,7 +2,7 @@
 
 ICONS_PATH=$(PREFIX)/icons/
 GTK_THEMES_PATH=$(PREFIX)/themes/
-PREFIX=/usr/share
+PREFIX=usr/share
 
 %: installtheme
 
