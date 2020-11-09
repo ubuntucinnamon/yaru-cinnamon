@@ -1,83 +1,42 @@
 Source: yaru-theme
 Section: misc
 Priority: optional
-Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
-Build-Depends: debhelper (>= 10.3),
-Build-Depends-Indep: libglib2.0-dev,
-                     meson (>= 0.45),
-                     sassc,
-Standards-Version: 4.1.5
+Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
+Build-Depends: debhelper (>= 12), debhelper-compat (= 13)
+Standards-Version: 4.5.0
 Homepage: https://community.ubuntu.com/c/desktop/theme-refresh
-Vcs-Browser: https://github.com/ubuntu/yaru
-Vcs-Git: https://github.com/ubuntu/yaru.git
+Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon
+Vcs-Git: https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon.git
 
-Package: yaru-theme-gnome-shell
+Package: yaru-cinnamon-theme-gtk
 Architecture: all
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-Breaks: gnome-shell (<< 3.35.92)
-Description: Yaru GNOME Shell desktop theme from the Ubuntu Community
+Depends: gnome-themes-extra,
+ gtk2-engines-pixbuf,
+ gtk2-engines-murrine,
+ ${misc:Depends}
+Description: Cinnamon version of the Ubuntu community "Yaru" GTK theme
  This is the theme, better than a burrito, that is shaped by the community
- on the Ubuntu discourse.
+ on the Ubuntu discourse. This version however is colorized to the Cinnamon
+ #DD682A color scheme and comes with Cinnamon DE and Metacity Window Manager
+ support.
  .
- This package contains the GNOME Shell theme part
+ This package contains the GTK+ 2 and 3 theme parts, along with Cinnamon and
+ Metacity support.
  .
  If you want to follow development, more information here:
- https://community.ubuntu.com/c/desktop/theme-refresh.
-
-Package: yaru-theme-gtk
-Architecture: all
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         gnome-themes-extra,
-         gtk2-engines-pixbuf,
-         gtk2-engines-murrine,
-Description: Yaru GTK theme from the Ubuntu Community
- This is the theme, better than a burrito, that is shaped by the community
- on the Ubuntu discourse.
- .
- This package contains the GTK+ 2 and 3 theme parts
- .
- If you want to follow development, more information here:
- https://community.ubuntu.com/c/desktop/theme-refresh.
+ https://community.ubuntu.com/c/desktop/theme-refresh
+ https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon
 
 Package: yaru-theme-icon
 Architecture: all
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-Description: Yaru icon theme from the Ubuntu Community
+Depends: ${misc:Depends}
+Description: Cinnamon version of the Ubuntu community "Yaru" icon theme
  This is the theme, better than a burrito, that is shaped by the community
- on the Ubuntu discourse.
+ on the Ubuntu discourse. This version however is colorized to the Cinnamon
+ #DD682A color scheme.
  .
- This package contains the icon theme
+ This package contains the icon theme.
  .
  If you want to follow development, more information here:
- https://community.ubuntu.com/c/desktop/theme-refresh.
-
-Package: yaru-theme-sound
-Architecture: all
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-Description: Yaru sound theme from the Ubuntu Community
- This is the theme, better than a burrito, that is shaped by the community
- on the Ubuntu discourse.
- .
- This package contains the sound theme
- .
- If you want to follow development, more information here:
- https://community.ubuntu.com/c/desktop/theme-refresh.
-
-Package: yaru-theme-unity
-Architecture: all
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-Description: Yaru Unity theme from the Ubuntu Community
- This is the theme, better than a burrito, that is shaped by the community
- on the Ubuntu discourse.
- .
- This package contains the Unity theme parts
- .
- If you want to follow development, more information here:
- https://community.ubuntu.com/c/desktop/theme-refresh.
-
-
+ https://community.ubuntu.com/c/desktop/theme-refresh
+ https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon
