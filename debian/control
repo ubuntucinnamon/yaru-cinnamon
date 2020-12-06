@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
 Build-Depends: debhelper (>= 12), debhelper-compat (= 13)
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Rules-Requires-Root: no
 Homepage: https://community.ubuntu.com/c/desktop/theme-refresh
 Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon
