@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Suru-dark</name>
-	<author>Ínitu</author>
+	<name>Yaru-RX</name>
+	<author>Vince Liuice</author>
 	<copyright>GPL-3.0+</copyright>
-	<date>2020.10.05</date>
-	<description>Suru-dark Metacity Theme</description>
+	<date>2018.01.12</date>
+	<description>Yaru-RX Metacity Theme</description>
 </info>
 
 
 <!-- CONSTANTS -->
 <constant name="C_titlebar" value="#2c2c2c" />
-<constant name="C_titlebar_unfocused" value="#3E3E3E" />
+<constant name="C_titlebar_unfocused" value="#2c2c2c" />
 <constant name="C_border_focused" value="#2c2c2c" />
-<constant name="C_border_unfocused" value="#3E3E3E" />
+<constant name="C_border_unfocused" value="#2c2c2c" />
 <constant name="C_title_focused" value="#f5f5f5" />
 <constant name="C_title_unfocused" value="#dedede" />
 
 <constant name="C_wm_button_background" value="#2c2c2c" />
 <constant name="C_wm_button_foreground" value="#2c2c2c" />
-<constant name="C_wm_button_unfocused" value="#3E3E3E" />
+<constant name="C_wm_button_unfocused" value="#2c2c2c" />
 
 <constant name="C_close_button" value="#787878" />
 <constant name="C_maximize_button" value="#787878" />
@@ -30,12 +30,12 @@
 
 <!-- Focused window -->
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="1" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="6" />
-	<distance name="right_titlebar_edge" value="2" />
-	<distance name="title_vertical_pad" value="12" />
+	<distance name="right_titlebar_edge" value="0" />
+	<distance name="title_vertical_pad" value="13" />
 	<aspect_ratio name="button" value="1" />
 	<border name="title_border" left="10" right="10" top="0" bottom="0" />
 	<border name="button_border" left="0" right="0" top="0" bottom="0" />
@@ -43,12 +43,12 @@
 
 <!-- Unfocused window -->
 <frame_geometry name="normal_unfocused" title_scale="medium" rounded_top_left="4" rounded_top_right="4" parent="normal" >
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="1" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="6"/>
-	<distance name="right_titlebar_edge" value="2"/>
-	<distance name="title_vertical_pad" value="12" />
+	<distance name="right_titlebar_edge" value="0"/>
+	<distance name="title_vertical_pad" value="13" />
 	<border name="title_border" left="10" right="10" top="0" bottom="0" />
 	<border name="button_border" left="0" right="0" top="0" bottom="0" />
 </frame_geometry>
@@ -111,11 +111,11 @@
 </frame_geometry>
 
 <!-- Modal -->
-<frame_geometry name="modal" title_scale="small" hide_buttons="true" rounded_top_left="false" rounded_top_right="false" parent="small">
+<frame_geometry name="modal" title_scale="small" hide_buttons="true" rounded_top_left="3" rounded_top_right="3" parent="small">
 	<distance name="title_vertical_pad" value="5"/>
 </frame_geometry>
 
-<frame_geometry name="attached" title_scale="medium" hide_buttons="true" rounded_top_left="false" rounded_top_right="false" parent="normal">
+<frame_geometry name="attached" title_scale="medium" hide_buttons="true" rounded_top_left="3" rounded_top_right="3" parent="normal">
 	<distance name="title_vertical_pad" value="8"/>
 	<distance name="bottom_height" value="1"/>
 	<distance name="left_width" value="1"/>
@@ -126,28 +126,27 @@
 <!-- title -->
 
 <draw_ops name="title_focused">
-
-	<title version="< 3.1"
-               x="2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               color="C_title_focused" />
-	<title version=">= 3.1"
-               x="2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               ellipsize_width="width"
-               color="C_title_focused" />
+  <title version="< 3.1"
+    x="(0 `max` ((width - title_width) / 2))"
+    y="(0 `max` ((height - title_height) / 2))"
+    color="C_title_focused"/>
+  <title version=">= 3.1"
+    x="(0 `max` ((frame_x_center - title_width / 2) `min` (width - title_width)))"
+    y="(0 `max` ((height - title_height) / 2))"
+    ellipsize_width="width"
+    color="C_title_focused"/>
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title version="< 3.1"
-               x="2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               color="C_title_unfocused" />
-	<title version=">= 3.1"
-               x="2"
-               y="(0 `max` ((height - title_height) / 2)) + 1"
-               ellipsize_width="width"
-               color="C_title_unfocused" />
+  <title version="< 3.1"
+    x="(0 `max` ((width - title_width) / 2))"
+    y="(0 `max` ((height - title_height) / 2))"
+    color="C_title_unfocused"/>
+  <title version=">= 3.1"
+    x="(0 `max` ((frame_x_center - title_width / 2) `min` (width - title_width)))"
+    y="(0 `max` ((height - title_height) / 2))"
+    ellipsize_width="width"
+    color="C_title_unfocused"/>
 </draw_ops>
 
 <!-- WINDOW DECORATIONS -->
@@ -331,64 +330,64 @@
 
 <!-- Menu icon -->
 <draw_ops name="menu_focused">
-	<image filename="menu_focused_normal.png" x="0" y="5" width="object_width" height="object_height" />
+	<image filename="menu_focused_normal.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_focused_prelight">
-	<image filename="menu_focused_prelight.png" x="0" y="5" width="object_width" height="object_height" />
+	<image filename="menu_focused_prelight.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_focused_pressed">
-	<image filename="menu_focused_pressed.png" x="0" y="5" width="object_width" height="object_height" />
+	<image filename="menu_focused_pressed.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_unfocused">
-	<image filename="menu_unfocused.png" x="0" y="6" width="object_width" height="object_height" />
+	<image filename="menu_unfocused.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_unfocused_prelight">
-	<image filename="menu_unfocused_prelight.png" x="0" y="5" width="object_width" height="object_height" />
+	<image filename="menu_unfocused_prelight.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="menu_unfocused_pressed">
-	<image filename="menu_unfocused_pressed.png" x="0" y="5" width="object_width" height="object_height" />
+	<image filename="menu_unfocused_pressed.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Shade icon -->
 <draw_ops name="shade_focused">
-	<image filename="shade_focused_normal.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_focused_normal.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_focused_prelight">
-	<image filename="shade_focused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_focused_prelight.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_focused_pressed">
-	<image filename="shade_focused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_focused_pressed.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_unfocused">
-	<image filename="shade_unfocused.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_unfocused.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_unfocused_prelight">
-	<image filename="shade_unfocused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_unfocused_prelight.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="shade_unfocused_pressed">
-	<image filename="shade_unfocused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="shade_unfocused_pressed.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 
 
 <!-- Unshade icon -->
 <draw_ops name="unshade_focused">
-	<image filename="unshade_focused_normal.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_focused_normal.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_focused_prelight">
-	<image filename="unshade_focused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_focused_prelight.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_focused_pressed">
-	<image filename="unshade_focused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_focused_pressed.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_unfocused">
-	<image filename="unshade_unfocused.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_unfocused.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_unfocused_prelight">
-	<image filename="unshade_unfocused_prelight.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_unfocused_prelight.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 <draw_ops name="unshade_unfocused_pressed">
-	<image filename="unshade_unfocused_pressed.png" x="0" y="2" width="object_width" height="object_height" />
+	<image filename="unshade_unfocused_pressed.png" x="0" y="4" width="object_width" height="object_height" />
 </draw_ops>
 
 

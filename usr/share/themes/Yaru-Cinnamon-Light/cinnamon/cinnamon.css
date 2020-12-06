@@ -94,14 +94,14 @@
   background-gradient-end: #ffffff; }
 
 .info-osd, .workspace-osd, .overview-empty-placeholder, .osd-window {
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px;
   color: #1a1a1a; }
 
 .sound-player .slider, .popup-slider-menu-item, .slider {
   height: 1.2em;
   min-width: 15em;
-  color: #7c7c7c;
+  color: #ababab;
   -slider-height: 2px;
   -slider-background-color: #d0d0d0;
   -slider-border-color: rgba(26, 26, 26, 0.32);
@@ -113,9 +113,9 @@
   -slider-handle-border-color: rgba(26, 26, 26, 0.32); }
 
 .popup-separator-menu-item, .separator {
-  -gradient-height: 3px;
-  -gradient-start: #7c7c7c;
-  -gradient-end: #7c7c7c;
+  -gradient-height: 2px;
+  -gradient-start: #ababab;
+  -gradient-end: #ababab;
   -margin-horizontal: 4px;
   height: 1em; }
 
@@ -135,7 +135,7 @@
 .photoframe-box, .desklet-header, .desklet-with-borders-and-header, .desklet-with-borders {
   color: #1a1a1a;
   padding: 8px;
-  border: 1px solid #7c7c7c; }
+  border: 1px solid #ababab; }
 
 .calendar-change-month-forward, .calendar-change-month-back {
   width: 16px;
@@ -158,7 +158,7 @@
 
 .popup-combo-menu, .menu {
   padding: 8px;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px;
   color: #1a1a1a; }
 
@@ -222,7 +222,7 @@
 
 .tile-hud, .tile-preview {
   background-color: rgba(221, 221, 221, 0.5);
-  border: 2px solid #7c7c7c; }
+  border: 2px solid #ababab; }
 
 .tile-hud.snap, .tile-preview.snap {
   background-color: rgba(221, 221, 221, 0.5);
@@ -497,7 +497,7 @@ StScrollView StScrollBar {
     padding: 0; }
 
 .panel-top {
-  box-shadow: 0 -1px 0 0 #7c7c7c inset; }
+  box-shadow: 0 -1px 0 0 #ababab inset; }
   .panel-top .window-list-item-box {
     margin-bottom: 1px; }
   .panel-top .grouped-window-list-item-box:active, .panel-top .grouped-window-list-item-box:checked {
@@ -514,7 +514,7 @@ StScrollView StScrollBar {
     padding: 3px 3px; }
 
 .panel-bottom {
-  box-shadow: 0 1px 0 0 #7c7c7c inset; }
+  box-shadow: 0 1px 0 0 #ababab inset; }
   .panel-bottom .window-list-item-box {
     margin-top: 1px; }
   .panel-bottom .grouped-window-list-item-box:active, .panel-bottom .grouped-window-list-item-box:checked {
@@ -531,7 +531,7 @@ StScrollView StScrollBar {
     padding: 3px 3px; }
 
 .panel-left {
-  box-shadow: -1px 0 0 0 #7c7c7c inset; }
+  box-shadow: -1px 0 0 0 #ababab inset; }
   .panel-left .window-list-item-box {
     margin-right: 1px; }
   .panel-left .grouped-window-list-item-box:active, .panel-left .grouped-window-list-item-box:checked {
@@ -548,7 +548,7 @@ StScrollView StScrollBar {
     padding: 3px 3px; }
 
 .panel-right {
-  box-shadow: 1px 0 0 0 #7c7c7c inset; }
+  box-shadow: 1px 0 0 0 #ababab inset; }
   .panel-right .window-list-item-box {
     margin-left: 1px; }
   .panel-right .grouped-window-list-item-box:active, .panel-right .grouped-window-list-item-box:checked {
@@ -670,7 +670,7 @@ StScrollView StScrollBar {
 
 .window-list-preview {
   border-radius: 5px;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   padding: 6px 12px;
   spacing: 3px;
   color: #1a1a1a; }
@@ -710,16 +710,14 @@ StScrollView StScrollBar {
 
 .grouped-window-list-thumbnail-menu {
   border-radius: 5px;
+  padding: 1px 1px;
   spacing: 3px;
   color: #1a1a1a; }
   .grouped-window-list-thumbnail-menu .item-box {
     padding: 8px;
-    border-radius: 5px; }
-    .grouped-window-list-thumbnail-menu .item-box:outlined {
-      border: 1px solid #dd743c; }
+    border-radius: 3px; }
     .grouped-window-list-thumbnail-menu .item-box:selected {
       background-color: #dd682a;
-      border: 1px solid #dd743c;
       color: #ffffff; }
   .grouped-window-list-thumbnail-menu .thumbnail-box {
     padding: 2px;
@@ -925,13 +923,13 @@ StScrollView StScrollBar {
   -boxpointer-gap: 4px; }
 
 .magnifier-zoom-region {
-  border: 3px solid #7c7c7c; }
+  border: 3px solid #ababab; }
   .magnifier-zoom-region.full-screen {
     border-width: 0; }
 
 #notification {
   border-radius: 5px;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   padding: 8px;
   spacing-rows: 5px;
   spacing-columns: 10px;
@@ -986,7 +984,7 @@ StScrollView StScrollBar {
     icon-size: 1.5em; }
 
 .modal-dialog {
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px;
   color: #1a1a1a;
   padding: 16px 20px; }
@@ -1102,7 +1100,7 @@ StScrollView StScrollBar {
   padding-right: 20px; }
 
 .about-scrollBox {
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px; }
 
 .about-scrollBox-innerBox {
@@ -1118,7 +1116,7 @@ StScrollView StScrollBar {
 #LookingGlassDialog {
   spacing: 4px;
   padding: 8px;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px;
   color: #1a1a1a; }
 
@@ -1173,7 +1171,7 @@ StScrollView StScrollBar {
 
 .switcher-list {
   border-radius: 5px;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   padding: 16px;
   color: #1a1a1a; }
   .switcher-list .item-box {
@@ -1259,7 +1257,7 @@ StScrollView StScrollBar {
 
 .window-caption {
   padding: 4px 6px;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px;
   color: #1a1a1a;
   -cinnamon-caption-spacing: 4px; }
@@ -1282,21 +1280,21 @@ StScrollView StScrollBar {
   background-image: url(assets/trash-icon.png);
   background-size: 100px;
   background-color: rgba(221, 221, 221, 0.5);
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-bottom-width: 0;
   border-radius: 20px 20px 0 0;
   height: 120px;
   width: 400px; }
 
 .expo-workspace-thumbnail-frame {
-  border: 1px solid #7c7c7c; }
+  border: 1px solid #ababab; }
   .expo-workspace-thumbnail-frame#active {
     border: 1px solid #dd743c; }
 
 .expo-workspaces-name-entry {
   padding: 4px 6px;
   height: 1.5em;
-  border: 1px solid #7c7c7c;
+  border: 1px solid #ababab;
   border-radius: 5px;
   selected-color: #ffffff;
   selection-background-color: #dd682a;
