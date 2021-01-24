@@ -1,3 +1,14 @@
+yaru-cinnamon-theme (21.01) hirsute; urgency=medium
+
+  [Ínitu Castilhos]
+  * Rebase cinnamon and metacity theme from Mint themes
+  * Update themes from upstream master branch
+
+  [Joshua Peisach]
+  * Remove useless build-dep debhelper if debhelper-compat is a dep
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sun, 24 Jan 2020 18:31:12 -0500
+
 yaru-cinnamon-theme (20.12) hirsute; urgency=medium
 
   [Ínitu Castilhos]
