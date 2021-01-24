@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Yaru-RX</name>
+	<name>Yaru</name>
 	<author>Vince Liuice</author>
 	<copyright>GPL-3.0+</copyright>
 	<date>2018.01.12</date>
-	<description>Yaru-RX Metacity Theme</description>
+	<description>Yaru Metacity Theme</description>
 </info>
 
 
 <!-- CONSTANTS -->
 <constant name="C_titlebar" value="#dedede" />
-<constant name="C_titlebar_unfocused" value="#dedede" />
+<constant name="C_titlebar_unfocused" value="#F7F7F7" />
 <constant name="C_border_focused" value="#dedede" />
-<constant name="C_border_unfocused" value="#dedede" />
+<constant name="C_border_unfocused" value="#F7F7F7" />
 <constant name="C_title_focused" value="#000000" />
 <constant name="C_title_unfocused" value="#2c2c2c" />
 
 <constant name="C_wm_button_background" value="#dedede" />
 <constant name="C_wm_button_foreground" value="#dedede" />
-<constant name="C_wm_button_unfocused" value="#dedede" />
+<constant name="C_wm_button_unfocused" value="#F7F7F7" />
 
 <constant name="C_close_button" value="#787878" />
 <constant name="C_maximize_button" value="#787878" />
@@ -30,9 +30,9 @@
 
 <!-- Focused window -->
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
-	<distance name="left_width" value="0" />
-	<distance name="right_width" value="0" />
-	<distance name="bottom_height" value="0" />
+	<distance name="left_width" value="1" />
+	<distance name="right_width" value="1" />
+	<distance name="bottom_height" value="1" />
 	<distance name="left_titlebar_edge" value="6" />
 	<distance name="right_titlebar_edge" value="0" />
 	<distance name="title_vertical_pad" value="13" />
@@ -43,9 +43,9 @@
 
 <!-- Unfocused window -->
 <frame_geometry name="normal_unfocused" title_scale="medium" rounded_top_left="4" rounded_top_right="4" parent="normal" >
-	<distance name="left_width" value="0" />
-	<distance name="right_width" value="0" />
-	<distance name="bottom_height" value="0" />
+	<distance name="left_width" value="1" />
+	<distance name="right_width" value="1" />
+	<distance name="bottom_height" value="1" />
 	<distance name="left_titlebar_edge" value="6"/>
 	<distance name="right_titlebar_edge" value="0"/>
 	<distance name="title_vertical_pad" value="13" />
@@ -55,9 +55,9 @@
 
 <!-- Maximized window -->
 <frame_geometry name="max" title_scale="medium" parent="normal" rounded_top_left="false" rounded_top_right="false">
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="1" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="title_vertical_pad" value="8" />
 	<border name="title_border" left="4" right="4" top="4" bottom="4" />
 	<border name="button_border" left="0" right="0" top="2" bottom="2" />
