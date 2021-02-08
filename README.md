@@ -1,4 +1,6 @@
-# Ubuntu Yaru theme suite
+# Ubuntu Cinnamon Yaru theme suite
+
+## This repo, when possible, will be merged as a new branch into https://github.com/ubuntu/yaru
 
 Snap build status: [![Build Status](https://travis-ci.org/ubuntu/yaru.svg?branch=master)](https://travis-ci.org/ubuntu/yaru)
 
