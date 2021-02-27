@@ -1,9 +1,13 @@
-[X-GNOME-Metatheme]
-Name=Yaru-Cinnamon-Dark
+[Desktop Entry]
 Type=X-GNOME-Metatheme
+Name=Yaru-Cinnamon-Dark
 Comment=Ubuntu Yaru-Cinnamon-Dark theme
 Encoding=UTF-8
+
+[X-GNOME-Metatheme]
 GtkTheme=Yaru-Cinnamon-Dark
+MetacityTheme=Yaru-Cinnamon-Dark
 IconTheme=Yaru-Cinnamon
 CursorTheme=Yaru-Cinnamon
 CursorSize=24
+ButtonLayout=:minimize,maximize,close

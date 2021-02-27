@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Yaru-Cinnamon
 Comment=A desktop adaptation of the Ubuntu mobile icons.
-Inherits=Humanity,hicolor
+Inherits=Humanity,Adwaita,gnome,hicolor
 Example=folder
 
 # Directory list
