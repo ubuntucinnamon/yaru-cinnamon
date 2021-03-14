@@ -13,7 +13,7 @@
    viewBox="0 0 6.35 6.35"
    id="svg4579"
    sodipodi:docname="minimize_focused_normal.svg"
-   inkscape:version="1.0.2 (1.0.2+r75+1)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata4585">
     <rdf:RDF>
@@ -37,17 +37,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1465"
-     inkscape:window-height="897"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      id="namedview4581"
      showgrid="true"
      inkscape:zoom="25.416667"
-     inkscape:cx="0.11803297"
+     inkscape:cx="7.3884795"
      inkscape:cy="11.881967"
-     inkscape:window-x="363"
-     inkscape:window-y="274"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g4575"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4577"
      inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
@@ -61,7 +61,7 @@
        cy="294.09"
        r="2.6458001"
        id="circle4571"
-       style="fill:#2C2C2C;stroke-width:0.66123003" />
+       style="fill:#222222;stroke-width:0.66123003" />
     <g
        transform="matrix(0.56569,-0.70711,0.56569,0.70711,-164.83669,88.367351)"
        id="g4575">

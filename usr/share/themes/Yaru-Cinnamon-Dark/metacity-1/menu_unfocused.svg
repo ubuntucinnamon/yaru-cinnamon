@@ -13,7 +13,7 @@
    viewBox="0 0 6.35 6.3499636"
    id="svg5275"
    sodipodi:docname="menu_unfocused.svg"
-   inkscape:version="1.0.2 (1.0.2+r75+1)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata5281">
     <rdf:RDF>
@@ -38,14 +38,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1564"
-     inkscape:window-height="1208"
+     inkscape:window-height="1010"
      id="namedview5277"
      showgrid="true"
      inkscape:zoom="21.454545"
-     inkscape:cx="14.9944"
+     inkscape:cx="5.6257557"
      inkscape:cy="9.8855007"
-     inkscape:window-x="692"
-     inkscape:window-y="80"
+     inkscape:window-x="354"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="g5273"
      inkscape:document-rotation="0">
@@ -61,7 +61,7 @@
        cy="294.09"
        r="2.6458001"
        id="circle5255"
-       style="fill:#3E3E3E;stroke-width:0.66123003" />
+       style="fill:#2c2c2c;stroke-width:0.66123003" />
     <circle
        cx="3.175"
        cy="294.08997"

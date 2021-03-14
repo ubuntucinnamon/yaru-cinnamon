@@ -13,7 +13,7 @@
    viewBox="0 0 6.35 6.35"
    id="svg4579"
    sodipodi:docname="minimize_unfocused.svg"
-   inkscape:version="1.0.2 (1.0.2+r75+1)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata4585">
     <rdf:RDF>
@@ -42,12 +42,12 @@
      id="namedview4581"
      showgrid="true"
      inkscape:zoom="25.416667"
-     inkscape:cx="-0.39344243"
+     inkscape:cx="7.9459181"
      inkscape:cy="11.881967"
-     inkscape:window-x="503"
-     inkscape:window-y="307"
+     inkscape:window-x="453"
+     inkscape:window-y="113"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g4575"
+     inkscape:current-layer="g4577"
      inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
@@ -61,7 +61,7 @@
        cy="294.09"
        r="2.6458001"
        id="circle4571"
-       style="fill:#3E3E3E;stroke-width:0.66123003" />
+       style="fill:#2c2c2c;stroke-width:0.66123003" />
     <g
        transform="matrix(0.56569,-0.70711,0.56569,0.70711,-164.83669,88.367351)"
        id="g4575">

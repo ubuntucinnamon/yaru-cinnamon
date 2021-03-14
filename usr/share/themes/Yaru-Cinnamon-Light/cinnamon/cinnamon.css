@@ -436,21 +436,21 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: #545454;
+  background-color: #1d1d1d;
   font-size: 1em;
   padding: 0px; }
 
 .panel-top {
-  box-shadow: 0 1px #4a4a4a; }
+  box-shadow: 0 1px #111111; }
 
 .panel-bottom {
-  box-shadow: 0 -1px #4a4a4a; }
+  box-shadow: 0 -1px #111111; }
 
 .panel-left {
-  box-shadow: 1px 0 #4a4a4a; }
+  box-shadow: 1px 0 #111111; }
 
 .panel-right {
-  box-shadow: -1px 0 #4a4a4a; }
+  box-shadow: -1px 0 #111111; }
 
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
@@ -954,8 +954,8 @@ StScrollBar {
 .menu-favorites-box {
   padding: 10px;
   transition-duration: 300;
-  background-color: #ffffff;
-  border: 1px solid #d9d9d9;
+  background-color: #f0f0f0;
+  border: 1px solid #808080;
   border-radius: 5px; }
 
 .menu-favorites-button {
@@ -963,8 +963,8 @@ StScrollBar {
   border: 1px solid transparent;
   border-radius: 3px; }
   .menu-favorites-button:hover {
-    background-color: white; 
-    border: 1px solid #dd682a;}
+    background-color: #dd682a; 
+    border: 1px solid #d9d9d9;}
 
 .menu-places-box {
   padding: 10px;
