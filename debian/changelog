@@ -1,3 +1,13 @@
+yaru-cinnamon-theme (21.03) hirsute; urgency=medium
+
+  [Ínitu Castilhos]
+  * Theme icons and GTK theme update, and some fixes
+
+  [Joshua Peisach]
+  * Fix cursor theme.
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Sat, 13 Mar 2021 20:55:47 -0500
+
 yaru-cinnamon-theme (21.02) hirsute; urgency=medium
 
   [Ínitu Castilhos]
