@@ -963,8 +963,8 @@ StScrollBar {
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 3px; }
   .menu-favorites-button:hover {
-    background-color: #dd682a; 
-    border: 1px solid #111111;}
+    background-color: #1d1d1d; 
+    border: 1px solid #dd682a;}
 
 .menu-places-box {
   padding: 10px;
