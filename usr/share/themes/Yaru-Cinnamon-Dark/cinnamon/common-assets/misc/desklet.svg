@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,7 +14,7 @@
    viewBox="0 0 32.000011 22.999983"
    id="svg5386"
    version="1.1"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="desklet.svg">
   <defs
      id="defs5388">
@@ -51,13 +53,7 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:document-rotation="0"
-     inkscape:window-width="1694"
-     inkscape:window-height="1006"
-     inkscape:window-x="103"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0">
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
        id="grid5954"
@@ -72,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,7 +98,7 @@
          height="20.999971"
          width="22"
          id="rect4164"
-         style="display:inline;opacity:0.95;fill:#404040;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="display:inline;opacity:0.95;fill:#3c4049;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
          style="display:inline;opacity:0.75"
          id="g4271"
