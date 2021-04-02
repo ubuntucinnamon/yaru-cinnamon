@@ -1,3 +1,13 @@
+yaru-cinnamon-theme (21.04.2) hirsute; urgency=medium
+
+  [Mutqadir]
+  * Fix livepatch, software store icons
+
+  [Joshua Peisach]
+  * Pre-release 21.04.2
+
+ -- Joshua Peisach <itzswirlz2020@outlook.com>  Fri, 02 Apr 2021 11:29:12 -0400
+
 yaru-cinnamon-theme (21.04.1) hirsute; urgency=medium
 
   [Ínitu Castilhos]
