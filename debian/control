@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon
 Vcs-Git: https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon.git
 
 Package: yaru-cinnamon-theme-gtk
-Architecture: all
+Architecture: amd64 arm64 mips64el ppc64el s390x
 Depends: gnome-themes-extra,
  gtk2-engines-pixbuf,
  gtk2-engines-murrine,
@@ -29,7 +29,7 @@ Description: Cinnamon version of the Ubuntu community "Yaru" GTK theme
  https://github.com/Ubuntu-Cinnamon-Remix/yaru-cinnamon
 
 Package: yaru-cinnamon-theme-icon
-Architecture: all
+Architecture: amd64 arm64 mips64el ppc64el s390x
 Depends: ${misc:Depends}
 Description: Cinnamon version of the Ubuntu community "Yaru" icon theme
  This is the theme, better than a burrito, that is shaped by the community
